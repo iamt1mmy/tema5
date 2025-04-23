@@ -12,7 +12,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <h1 class="p-3">Kanban Tasks</h1>
+  <h1 class="p-3">Football Players</h1>
   <div class="flex">
     <TasksList
       v-for="(list, index) in kanbanStore.lists"

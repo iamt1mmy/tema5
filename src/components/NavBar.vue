@@ -22,7 +22,7 @@ function helloFromServer() {
         <RouterLink to="/" class="flex items-center space-x-3 rtl:space-x-reverse">
           <i class="bi bi-kanban text-2xl dark:text-white"></i>
           <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            Kanban Tasks
+            HEART OF FOOTBALL
           </span>
         </RouterLink>
         <div class="flex space-x-3 md:order-2 md:space-x-0 rtl:space-x-reverse">
@@ -67,7 +67,7 @@ function helloFromServer() {
           >
             <li>
               <RouterLink
-                class="block rounded-sm bg-blue-700 px-3 py-2 text-white md:bg-transparent md:p-0 md:text-blue-700 md:dark:text-blue-500"
+                class="block rounded-sm px-3 py-2 text-gray-900 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
                 to="/"
                 aria-current="page"
               >
@@ -79,7 +79,7 @@ function helloFromServer() {
                 class="block rounded-sm px-3 py-2 text-gray-900 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
                 to="/tasks-kanban"
               >
-                Kanban Tasks
+                Squad
               </RouterLink>
             </li>
           </ul>
